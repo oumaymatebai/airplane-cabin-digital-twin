@@ -1,11 +1,11 @@
 ✈️ Airplane Cabin Digital Twin
 --
-A beginner-level digital twin project that simulates environmental conditions in an airplane cabin. The idea came as a fun experiment but evolved into a meaningful demonstration of how digital twins can enhance cabin safety, passenger comfort, and system efficiency through real-time environmental monitoring and intelligent data routing using **Apache NiFi**.
+A beginner-level digital twin project that simulates environmental conditions in an airplane cabin. The idea is a meaningful demonstration of how digital twins can enhance cabin safety, passenger comfort, and system efficiency through real-time environmental monitoring and intelligent data routing.
 
 
 🎯 Project Objective
 --
-This project aims to simulate real-time environmental data—such as temperature, humidity, and CO₂ levels—inside an airplane cabin using a Digital Twin architecture. The data is sent to a **Context Broker (FIWARE Orion)** and managed in a containerized environment with **Docker** and **Docker Compose**.
+This project aims to simulate real-time environmental data—such as temperature, humidity, and CO₂ levels—inside an airplane cabin using a Digital Twin architecture. Data flows through **Apache NiFi**, is stored in **MongoDB**, and is processed and updated in the **FIWARE Orion Context Broker** and managed in a containerized environment with **Docker**. The setup uses **Docker Compose** for easy orchestration.
 
 
 🧰 Tech Stack
