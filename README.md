@@ -7,7 +7,6 @@ A beginner-level digital twin project that simulates environmental conditions in
 
 This project aims to simulate real-time environmental data—such as temperature, humidity, and CO₂ levels—inside an airplane cabin using a Digital Twin architecture. The data is sent to a **Context Broker (FIWARE Orion)** and managed in a containerized environment with **Docker** and **Docker Compose**.
 
----
 
 🧰 Tech Stack
 
@@ -19,7 +18,6 @@ This project aims to simulate real-time environmental data—such as temperature
 - **NGSI v2 API** – used for CRUD operations
 - **Subscriptions** – to react to changes in data
 
----
 
 🛠️ Features
 
@@ -29,7 +27,6 @@ This project aims to simulate real-time environmental data—such as temperature
 - Subscriptions to track environmental changes
 - Easily deployable with Docker Compose
 
----
 
 🧪 Use Cases
 
@@ -40,7 +37,6 @@ This small simulation serves to explore:
 - **Energy efficiency modeling** by analyzing cabin conditions
 - **Educational use** in IoT and digital twin architecture training
 
----
 
 🚀 Getting Started
 
