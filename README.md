@@ -40,19 +40,19 @@ Simulated cabin sensor data: temperature, humidity, CO₂ levels
 📊 System Architecture Diagram
 ---
 
-+----------------------+         +------------------------+         +-------------------+
-|  Sensor Simulation   | ----->  |  Orion Context Broker  | ----->  |     MongoDB       |
-|  (Python scripts)    |         |    (FIWARE Orion CB)   |         |   (Data Storage)  |
-+----------------------+         +------------------------+         +-------------------+
-           |                               |                                 |
-           | HTTP (NGSI v2)                | Subscriptions                   |
-           v                               v                                 |
-+----------------------+         +------------------------+                 |
-|  Dockerized API      |         |       Grafana UI       | <----------------
-|  Environment         |         |   (Real-time Dashboard)|
-+----------------------+         +------------------------+
+```plaintext
++--------------------+     NGSI v2     +--------------------+     MongoDB
+|  Sensor Simulation |  ------------>  |   Orion Context     |  ------------>
+|  (Python scripts)  |                |     Broker (CB)     |     (Storage)
++--------------------+                +--------------------+
+         |                                      |
+         | HTTP                                 | Subscriptions
+         v                                      v
+   +------------------+               +----------------------+
+   | Docker Container |               |     Grafana UI       |
+   |    (API script)  |               |   (Dashboard view)   |
+   +------------------+               +----------------------+
 
---
 🚀 Getting Started
 ---
 1. Clone the Repository
