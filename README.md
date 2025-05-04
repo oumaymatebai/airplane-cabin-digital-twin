@@ -62,8 +62,11 @@
 -
 
   1. Clone the Repository
+  
   git clone https://github.com/oumaymatebai/airplane-cabin-digital-twin.git
+  
   cd airplane-cabin-digital-twin
   
   2. Navigate to the Project Folder
+  
   cd airplane-digital-twin
