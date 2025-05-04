@@ -1,0 +1,27 @@
+{
+  "id": "Airplane001",
+  "type": "Airplane",
+  "position": {
+    "type": "geo:json",
+    "value": {
+      "type": "Point",
+      "coordinates": [10.1658, 36.8188]
+    }
+  },
+  "altitude": {
+    "type": "Number",
+    "value": 10000
+  },
+  "speed": {
+    "type": "Number",
+    "value": 850
+  },
+  "temperature": {
+    "type": "Number",
+    "value": 22
+  },
+  "status": {
+    "type": "Text",
+    "value": "in-flight"
+  }
+}
