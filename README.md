@@ -10,45 +10,31 @@ This project simulates real-time environmental data—such as temperature, humid
 
 🧰 Tech Stack
 ---
-Docker & Docker Compose – Containerized and orchestrated setup
-
-FIWARE Orion Context Broker – Core of the Digital Twin (entity context management)
-
-MongoDB – Persistence layer for entity states
-
-Python – Simulates environmental sensor data and pushes updates
-
-Grafana – Real-time dashboard for data visualization
-
-NGSI v2 API – CRUD operations for managing digital twin entities
-
-Subscriptions – Real-time event monitoring and triggering
+-Docker & Docker Compose – Containerized and orchestrated setup
+-FIWARE Orion Context Broker – Core of the Digital Twin (entity context management)
+-MongoDB – Persistence layer for entity states
+-Python – Simulates environmental sensor data and pushes updates
+-Grafana – Real-time dashboard for data visualization
+-NGSI v2 API – CRUD operations for managing digital twin entities
+-Subscriptions – Real-time event monitoring and triggering
 
 
 🛠️ Features
 ---
 Simulated cabin sensor data: temperature, humidity, CO₂ levels
-
-Real-time updates to the Orion Context Broker
-
-Subscriptions for reacting to environmental threshold breaches
-
-CRUD operations on digital twin entities using NGSI v2 API
-
-Live data visualization using Grafana
-
-Fully containerized with Docker Compose for easy deployment
+-Real-time updates to the Orion Context Broker
+-Subscriptions for reacting to environmental threshold breaches
+-CRUD operations on digital twin entities using NGSI v2 API
+-Live data visualization using Grafana
+-Fully containerized with Docker Compose for easy deployment
 
 
 🧪 Use Cases
 ---
-Cabin comfort optimization via continuous monitoring
-
-Safety alerting when environmental conditions exceed safe thresholds
-
-Energy modeling to simulate and improve HVAC efficiency
-
-Educational tool for IoT, smart environments, and digital twin concepts
+-Cabin comfort optimization via continuous monitoring
+-Safety alerting when environmental conditions exceed safe thresholds
+-Energy modeling to simulate and improve HVAC efficiency
+-Educational tool for IoT, smart environments, and digital twin concepts
 
 
 📊 System Architecture Diagram
@@ -66,6 +52,7 @@ Educational tool for IoT, smart environments, and digital twin concepts
 |  Environment         |         |   (Real-time Dashboard)|
 +----------------------+         +------------------------+
 
+--
 🚀 Getting Started
 ---
 1. Clone the Repository
