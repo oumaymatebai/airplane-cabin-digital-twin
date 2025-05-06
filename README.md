@@ -1,54 +1,54 @@
 ✈️ Airplane Cabin Digital Twin
 -
-      A beginner-level digital twin project that simulates environmental conditions in an airplane cabin. This project demonstrates how digital twins can enhance cabin safety, passenger comfort, and system efficiency through real-time environmental monitoring and intelligent data management.
+A beginner-level digital twin project that simulates environmental conditions in an airplane cabin. This project demonstrates how digital twins can enhance cabin safety, passenger comfort, and system efficiency through real-time environmental monitoring and intelligent data management.
 
 
 🎯 Project Objective
 -
-      This project simulates real-time environmental data—such as temperature, humidity, and CO₂ levels—inside an airplane cabin using a Digital Twin architecture. The data is stored in MongoDB, updated via the FIWARE Orion Context Broker, and visualized using Grafana dashboards. The entire system is managed in a lightweight, containerized environment with Docker Compose.
+This project simulates real-time environmental data—such as temperature, humidity, and CO₂ levels—inside an airplane cabin using a Digital Twin architecture. The data is stored in MongoDB, updated via the FIWARE Orion Context Broker, and visualized using Grafana dashboards. The entire system is managed in a lightweight, containerized environment with Docker Compose.
 
 
 🧰 Tech Stack
 -
-      Docker & Docker Compose – Containerized and orchestrated setup
+Docker & Docker Compose – Containerized and orchestrated setup
       
-      FIWARE Orion Context Broker – Core of the Digital Twin (entity context management)
+FIWARE Orion Context Broker – Core of the Digital Twin (entity context management)
       
-      MongoDB – Persistence layer for entity states
+MongoDB – Persistence layer for entity states
       
-      Python – Simulates environmental sensor data and pushes updates
+Python – Simulates environmental sensor data and pushes updates
       
-      Grafana – Real-time dashboard for data visualization
+Grafana – Real-time dashboard for data visualization
       
-      NGSI v2 API – CRUD operations for managing digital twin entities
+NGSI v2 API – CRUD operations for managing digital twin entities
       
-      Subscriptions – Real-time event monitoring and triggering
+Subscriptions – Real-time event monitoring and triggering
 
 
 🛠️ Features
 -
-      Simulated cabin sensor data: temperature, humidity, CO₂ levels
+Simulated cabin sensor data: temperature, humidity, CO₂ levels
       
-      Real-time updates to the Orion Context Broker
+Real-time updates to the Orion Context Broker
       
-      Subscriptions for reacting to environmental threshold breaches
+Subscriptions for reacting to environmental threshold breaches
       
-      CRUD operations on digital twin entities using NGSI v2 API
+CRUD operations on digital twin entities using NGSI v2 API
       
-      Live data visualization using Grafana
+Live data visualization using Grafana
       
-      Fully containerized with Docker Compose for easy deployment
+Fully containerized with Docker Compose for easy deployment
 
 
 🧪 Use Cases
 -
-      Cabin comfort optimization via continuous monitoring
+Cabin comfort optimization via continuous monitoring
       
-      Safety alerting when environmental conditions exceed safe thresholds
+Safety alerting when environmental conditions exceed safe thresholds
       
-      Energy modeling to simulate and improve HVAC efficiency
+Energy modeling to simulate and improve HVAC efficiency
       
-      Educational tool for IoT, smart environments, and digital twin concepts
+Educational tool for IoT, smart environments, and digital twin concepts
 
 
 📊 System Architecture Diagram
@@ -62,23 +62,23 @@ The system architecture diagram here includes:
 
 1. Data Pipeline:
    
-           Sensor simulation using a python script
+   Sensor simulation using a python script
            
-           FIWARE Orion Context Broker as the core hub
+   FIWARE Orion Context Broker as the core hub
            
-           MongoDB for storing entity data
+   MongoDB for storing entity data
            
-           Mongo Express for a browser-based UI of MongoDB
+   Mongo Express for a browser-based UI of MongoDB
 
 2. Visualisation:
 
-           QuantumLeap for time-series data storage 
+   QuantumLeap for time-series data storage 
            
-           CrateDB to store the time-series data
+   CrateDB to store the time-series data
            
-           Grafana for visualizing real-time data
+   Grafana for visualizing real-time data
            
-           Docker containers for each service
+   Docker containers for each service
 
 
 🚀 Getting Started
@@ -155,6 +155,6 @@ timestamp: Date and time of measurement.
            }
          }
 
-    co2Level: CO2 in ppm.
+co2Level: CO2 in ppm.
     
-    pm25: Particulate matter concentration.
+pm25: Particulate matter concentration.
