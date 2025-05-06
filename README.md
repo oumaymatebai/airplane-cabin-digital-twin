@@ -125,6 +125,13 @@ The system architecture diagram here includes:
   }
 }
 
+id: Unique identifier for the sensor.
+    
+type: Entity type. 
+temperature: Actual measured value.
+location: Geo-coordinates (latitude,longitude).
+timestamp: Date and time of measurement.
+
 
 🟦 Example: Air Quality Sensor
 
@@ -146,5 +153,4 @@ The system architecture diagram here includes:
 }
 
     co2Level: CO2 in ppm.
-    
     pm25: Particulate matter concentration.
