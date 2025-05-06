@@ -54,7 +54,8 @@
 📊 System Architecture Diagram
 -
 
-![diagram-export-5-4-2025-7_23_17-PM](https://github.com/user-attachments/assets/fb952ea4-818e-458e-9200-bf62523453c4)
+
+![diagram-export-5-6-2025-9_39_43-AM](https://github.com/user-attachments/assets/28ed6e54-ab1a-443d-bdb7-9b4129c6bf0c)
 
 
 
