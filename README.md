@@ -108,7 +108,8 @@ The system architecture diagram here includes:
 
 This project uses NGSI v2-compliant JSON data models to represent environmental entities such as temperature, humidity, and CO₂ sensors inside the airplane cabin. 
 
-➡️ Detailed data model definitions can be found in [View Data Models](./data-models.md)
+➡️ Detailed data model definitions can be found in [View Data Models](./airplane-cabin-digital-twin
+/data-models.md)
 
 
 
