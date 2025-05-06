@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  orion:
+    image: fiware/orion
+    container_name: orion
+    ports:
+      - "1026:1026"
+    environment:
+      - TZ=Europe/Madrid
+      - ORION_LOG_LEVEL=DEBUG
+    restart: always
+
+  mongo:
+    image: mongo
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    restart: always
