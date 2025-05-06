@@ -70,7 +70,7 @@ The system architecture diagram here includes:
   
   Mongo Express for a browser-based UI of MongoDB
 
-2.Visualisation:
+2. Visualisation:
 
   QuantumLeap for time-series data storage 
   
@@ -86,27 +86,27 @@ The system architecture diagram here includes:
 
   1. Clone the Repository
   
-  git clone https://github.com/oumaymatebai/airplane-cabin-digital-twin.git
-  
-  cd airplane-cabin-digital-twin
+           git clone https://github.com/oumaymatebai/airplane-cabin-digital-twin.git
+           
+           cd airplane-cabin-digital-twin
   
   2. Navigate to the Project Folder
   
-  cd airplane-digital-twin
+           cd airplane-digital-twin
 
   3. Build and Run the Project
 
- docker-compose up -d --build
+           docker-compose up -d --build
 
  4. Verify the Services
 
- docker ps
+           docker ps
 
 
 🗂️ Data Models (JSON)
 -
 
-**🟦 Example: Temperature Sensor**
+🟦 Example: Temperature Sensor
 
 {
   "id": "TempSensor001",
@@ -135,7 +135,7 @@ The system architecture diagram here includes:
     
     timestamp: Date and time of measurement.
 
-**🟦 Example: Air Quality Sensor**
+🟦 Example: Air Quality Sensor
 
 {
   "id": "AirQSensor001",
