@@ -108,25 +108,24 @@ The system architecture diagram here includes:
 
 🟦 Example: Temperature Sensor
 
-{
-  "id": "TempSensor001",
-  "type": "TemperatureSensor",
-  "temperature": {
-    "type": "Number",
-    "value": 23.5
-  },
-  "location": {
-    "type": "geo:point",
-    "value": "36.8065,10.1815"
-  },
-  "timestamp": {
-    "type": "DateTime",
-    "value": "2025-05-06T14:00:00Z"
-  }
-}
+         {
+           "id": "TempSensor001",
+           "type": "TemperatureSensor",
+           "temperature": {
+             "type": "Number",
+             "value": 23.5
+           },
+           "location": {
+             "type": "geo:point",
+             "value": "36.8065,10.1815"
+           },
+           "timestamp": {
+             "type": "DateTime",
+             "value": "2025-05-06T14:00:00Z"
+           }
+         }
 
 id: Unique identifier for the sensor.
-    
 type: Entity type. 
 temperature: Actual measured value.
 location: Geo-coordinates (latitude,longitude).
@@ -135,22 +134,22 @@ timestamp: Date and time of measurement.
 
 🟦 Example: Air Quality Sensor
 
-{
-  "id": "AirQSensor001",
-  "type": "AirQualitySensor",
-  "co2Level": {
-    "type": "Number",
-    "value": 560
-  },
-  "pm25": {
-    "type": "Number",
-    "value": 25
-  },
-  "timestamp": {
-    "type": "DateTime",
-    "value": "2025-05-06T14:00:00Z"
-  }
-}
+         {
+           "id": "AirQSensor001",
+           "type": "AirQualitySensor",
+           "co2Level": {
+             "type": "Number",
+             "value": 560
+           },
+           "pm25": {
+             "type": "Number",
+             "value": 25
+           },
+           "timestamp": {
+             "type": "DateTime",
+             "value": "2025-05-06T14:00:00Z"
+           }
+         }
 
     co2Level: CO2 in ppm.
     pm25: Particulate matter concentration.
